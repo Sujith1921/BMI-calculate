@@ -1,0 +1,61 @@
+*{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('https://www.verywellfit.com/thmb/Xio5I7FgQh0GRwhS6qWAio3amOM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pushups-5680bb925f9b586a9edf3927.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width:300px;
+    margin:50px auto;
+    padding:40px;
+    background-color: rgb(55, 130, 160);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color:rgb(13, 0, 0);
+    text-align: center;
+}
+.input-container{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:#0d0000;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+    outline-color: rgb(43, 177, 221);
+}
+button{
+    display: block;
+    width:100%;
+    padding: 10px;
+    font-size: 18px;
+    color:rgb(0, 7, 12);
+    background-color: aqua;
+    border:none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button:hover{
+    background-color: rgb(59, 216, 135);
+}
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
